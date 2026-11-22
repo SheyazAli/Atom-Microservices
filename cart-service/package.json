@@ -1,0 +1,18 @@
+{
+  "name": "cart-service",
+  "version": "1.0.0",
+  "description": "Minimal Cart Service demonstrating REST communication with Coupon Service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  }
+}
